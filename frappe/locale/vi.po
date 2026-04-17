@@ -11504,7 +11504,7 @@ msgstr "Đi tới {0}"
 #: frappe/custom/doctype/doctype_layout/doctype_layout.js:42
 #: frappe/workflow/doctype/workflow/workflow.js:44
 msgid "Go to {0} List"
-msgstr "Đi tới {0} Danh sách"
+msgstr "Đi tới Danh sách {0}"
 
 #: frappe/core/doctype/page/page.js:11
 msgid "Go to {0} Page"
@@ -18579,7 +18579,7 @@ msgstr "Chỉ người được giao mới có thể hoàn thành việc cần l
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.py:108
 msgid "Only {0} emailed reports are allowed per user."
-msgstr "Chỉ cho phép {0} báo cáo được gửi qua email cho mỗi người dùng."
+msgstr "Chỉ cho phép Báo cáo {0} được gửi qua email cho mỗi người dùng."
 
 #: frappe/templates/includes/login/login.js:287
 msgid "Oops! Something went wrong."
@@ -25106,7 +25106,7 @@ msgstr ""
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:150
 msgid "Show {0} List"
-msgstr "Hiển thị {0} Danh sách"
+msgstr "Hiển thị Danh sách {0}"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:560
 msgid "Showing only Numeric fields from Report"
@@ -26218,7 +26218,7 @@ msgstr "Đã nhập thành công {0}"
 
 #: frappe/core/doctype/data_import/data_import.js:150
 msgid "Successfully imported {0} out of {1} records."
-msgstr "Đã nhập thành công {0} trong số {1} bản ghi."
+msgstr "Đã nhập thành công {0} trong số Bản ghi {1}."
 
 #: frappe/desk/doctype/form_tour/form_tour.py:87
 msgid "Successfully reset onboarding status for all users."
@@ -26238,7 +26238,7 @@ msgstr "Đã cập nhật thành công {0}"
 
 #: frappe/core/doctype/data_import/data_import.js:155
 msgid "Successfully updated {0} out of {1} records."
-msgstr "Đã cập nhật thành công {0} trong số {1} bản ghi."
+msgstr "Đã cập nhật thành công {0} trong số Bản ghi {1}."
 
 #: frappe/core/doctype/recorder/recorder.js:15
 msgid "Suggest Optimizations"
@@ -32239,7 +32239,7 @@ msgstr "{0} Biểu đồ"
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:369
 #: frappe/public/js/frappe/views/dashboard/dashboard_view.js:12
 msgid "{0} Dashboard"
-msgstr "{0} Trang tổng quan"
+msgstr "Trang tổng quan {0}"
 
 #: frappe/public/js/frappe/form/grid_row.js:472
 #: frappe/public/js/frappe/list/list_settings.js:230
@@ -32261,11 +32261,11 @@ msgstr "{0} Đã thích"
 
 #: frappe/public/js/frappe/widgets/chart_widget.js:363 frappe/www/portal.html:8
 msgid "{0} List"
-msgstr "{0} Danh sách"
+msgstr "Danh sách {0}"
 
 #: frappe/public/js/frappe/list/list_settings.js:33
 msgid "{0} List View Settings"
-msgstr "{0} Cài đặt chế độ xem danh sách"
+msgstr "Cài đặt chế độ xem danh sách {0}"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:37
 msgid "{0} M"
@@ -32285,19 +32285,19 @@ msgstr "{0} Không được phép thay đổi {1} sau khi gửi từ {2} thành 
 
 #: frappe/public/js/frappe/widgets/chart_widget.js:371
 msgid "{0} Report"
-msgstr "{0} Báo cáo"
+msgstr "Báo cáo {0}"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:996
 msgid "{0} Reports"
-msgstr "{0} Báo cáo"
+msgstr "Báo cáo {0}"
 
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:26
 msgid "{0} Settings"
-msgstr "{0} cài đặt"
+msgstr "Cài đặt {0}"
 
 #: frappe/public/js/frappe/views/treeview.js:153
 msgid "{0} Tree"
-msgstr "{0} Cây"
+msgstr "Cây {0}"
 
 #: frappe/public/js/frappe/form/footer/form_timeline.js:133
 #: frappe/public/js/frappe/form/sidebar/form_sidebar.js:150
@@ -32422,7 +32422,7 @@ msgstr "{0} d"
 
 #: frappe/public/js/frappe/utils/pretty_date.js:60
 msgid "{0} days ago"
-msgstr "{0} ngày trước"
+msgstr "Ngày {0} trước"
 
 #: frappe/public/js/frappe/form/controls/link.js:685
 msgid "{0} does not contain {1}"
@@ -32788,7 +32788,7 @@ msgstr "{0} trong số {1} ({2} hàng có con)"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:471
 msgid "{0} of {1} records match (filtered on visible rows only)"
-msgstr "{0} trên {1} bản ghi khớp (chỉ lọc trên các dòng hiển thị)"
+msgstr "{0} trên Bản ghi {1} khớp (chỉ lọc trên các dòng hiển thị)"
 
 #: frappe/utils/data.py:1571
 msgctxt "Money in words"
@@ -32801,19 +32801,19 @@ msgstr "{0} hoặc {1}"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:177
 msgid "{0} record deleted"
-msgstr "{0} bản ghi đã bị xóa"
+msgstr "Bản ghi {0} đã bị xóa"
 
 #: frappe/public/js/frappe/logtypes.js:22
 msgid "{0} records are not automatically deleted."
-msgstr "{0} bản ghi không được tự động xóa."
+msgstr "Bản ghi {0} không được tự động xóa."
 
 #: frappe/public/js/frappe/logtypes.js:29
 msgid "{0} records are retained for {1} days."
-msgstr "Bản ghi {0} được lưu giữ trong {1} ngày."
+msgstr "Bản ghi {0} được lưu giữ trong Ngày {1}."
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:179
 msgid "{0} records deleted"
-msgstr "{0} bản ghi đã bị xóa"
+msgstr "Bản ghi {0} đã bị xóa"
 
 #: frappe/public/js/frappe/data_import/data_exporter.js:233
 msgid "{0} records will be exported"

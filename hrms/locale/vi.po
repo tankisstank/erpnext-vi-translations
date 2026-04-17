@@ -3704,7 +3704,7 @@ msgstr "Loại trừ ngày lễ"
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:138
 msgid "Excluded {0} Non-Encashable Leaves for {1}"
-msgstr "Đã loại trừ {0} ngày phép không được quy đổi cho {1}"
+msgstr "Đã loại trừ Ngày {0} phép không được quy đổi cho {1}"
 
 #. Label of the exempted_from_income_tax (Check) field in DocType 'Salary
 #. Component'
@@ -11430,7 +11430,7 @@ msgstr "Bạn chỉ có thể tải lên các tệp JPG, PNG, PDF, TXT hoặc t�
 
 #: hrms/payroll/doctype/payroll_correction/payroll_correction.py:78
 msgid "You cannot reverse more than the total LWP days {0}. You have already reversed {1} days for this employee."
-msgstr "Bạn không thể hoàn tác nhiều hơn tổng số ngày nghỉ không lương {0}. Bạn đã hoàn tác {1} ngày cho nhân viên này."
+msgstr "Bạn không thể hoàn tác nhiều hơn tổng số ngày nghỉ không lương {0}. Bạn đã hoàn tác Ngày {1} cho nhân viên này."
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:457
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:620
@@ -11634,7 +11634,7 @@ msgstr "{0} đã có Phân công ca làm việc đang hoạt động {1} cho m�
 
 #: hrms/hr/doctype/leave_application/leave_application.py:201
 msgid "{0} applicable after {1} working days"
-msgstr "{0} áp dụng sau {1} ngày làm việc"
+msgstr "{0} áp dụng sau Ngày {1} làm việc"
 
 #: frontend/src/components/LeaveBalance.vue:37
 msgctxt "Leave Type"
@@ -11684,15 +11684,15 @@ msgstr "{0} không có trong Danh sách ngày nghỉ lễ tùy chọn"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:395
 msgid "{0} leaves allocated successfully"
-msgstr "{0} ngày phép đã được phân bổ thành công"
+msgstr "Ngày {0} phép đã được phân bổ thành công"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:603
 msgid "{0} leaves from allocation for {1} leave type have expired and will be processed during the next scheduled job. It is recommended to expire them now before creating new leave policy assignments."
-msgstr "{0} ngày phép từ việc phân bổ cho loại phép {1} đã hết hạn và sẽ được xử lý trong đợt xử lý định kỳ tiếp theo. Khuyến nghị nên hết hạn chúng ngay bây giờ trước khi tạo các phân bổ chính sách nghỉ phép mới."
+msgstr "Ngày {0} phép từ việc phân bổ cho loại phép {1} đã hết hạn và sẽ được xử lý trong đợt xử lý định kỳ tiếp theo. Khuyến nghị nên hết hạn chúng ngay bây giờ trước khi tạo các phân bổ chính sách nghỉ phép mới."
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:390
 msgid "{0} leaves were manually allocated by {1} on {2}"
-msgstr "{0} ngày phép đã được {1} phân bổ thủ công vào ngày {2}"
+msgstr "Ngày {0} phép đã được {1} phân bổ thủ công vào ngày {2}"
 
 #: hrms/hr/doctype/training_feedback/training_feedback.py:33
 #: hrms/hr/doctype/training_result/training_result.py:32
@@ -11741,14 +11741,14 @@ msgstr "{0}: Không tìm thấy email nhân viên, do đó không gửi được
 
 #: hrms/hr/doctype/leave_application/leave_application.py:103
 msgid "{0}: From {0} of type {1}"
-msgstr "{0}: Từ {0} loại {1}"
+msgstr "{0}: Từ Loại {0} {1}"
 
 #: frontend/src/components/AttendanceRequestItem.vue:17
 #: frontend/src/components/LeaveRequestItem.vue:16
 #: frontend/src/components/ShiftAssignmentItem.vue:12
 #: frontend/src/components/ShiftRequestItem.vue:17
 msgid "{0}d"
-msgstr "{0} ngày"
+msgstr "Ngày {0}"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.js:22
 msgid "{} {} open for this position."

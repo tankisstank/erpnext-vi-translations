@@ -12699,7 +12699,7 @@ msgstr "Được tạo bởi Di chuyển dữ liệu"
 
 #: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.py:250
 msgid "Created {0} scorecards for {1} between:"
-msgstr "Đã tạo {0} bảng điểm cho {1} trong khoảng:"
+msgstr "Đã tạo Bảng {0} điểm cho {1} trong khoảng:"
 
 #. Description of the 'Create User Automatically' (Check) field in DocType
 #. 'Employee'
@@ -18966,7 +18966,7 @@ msgstr ""
 
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:457
 msgid "Fetched only {0} available serial numbers."
-msgstr "Chỉ tìm nạp {0} số sê-ri có sẵn."
+msgstr "Chỉ tìm nạp Số {0} sê-ri có sẵn."
 
 #: erpnext/edi/doctype/code_list/code_list_import.py:28
 msgid "Fetching Error"
@@ -19681,7 +19681,7 @@ msgstr "Cho Mặt hàng"
 
 #: erpnext/controllers/stock_controller.py:1600
 msgid "For Item {0} cannot be received more than {1} qty against the {2} {3}"
-msgstr "Đối với mặt hàng {0}, không thể nhận quá {1} số lượng so với {2} {3}"
+msgstr "Đối với mặt hàng {0}, không thể nhận quá Số {1} lượng so với {2} {3}"
 
 #. Label of the for_job_card (Link) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
@@ -22274,7 +22274,7 @@ msgstr "Nếu bạn muốn chạy các công đoạn song song, hãy giữ cùng
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:377
 msgid "If you {0} {1} quantities of the item {2}, the scheme {3} will be applied on the item."
-msgstr "Nếu bạn {0} {1} số lượng mặt hàng {2}, chương trình khuyến mãi {3} sẽ được áp dụng cho mặt hàng đó."
+msgstr "Nếu bạn {0} Số {1} lượng mặt hàng {2}, chương trình khuyến mãi {3} sẽ được áp dụng cho mặt hàng đó."
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:382
 msgid "If you {0} {1} worth item {2}, the scheme {3} will be applied on the item."
@@ -22499,7 +22499,7 @@ msgstr "Nhập bằng tệp CSV"
 
 #: erpnext/edi/doctype/code_list/code_list_import.js:130
 msgid "Import completed. {0} common codes created."
-msgstr "Nhập hoàn tất. Đã tạo {0} mã chung."
+msgstr "Nhập hoàn tất. Đã tạo Mã {0} chung."
 
 #: erpnext/stock/doctype/item_price/item_price.js:29
 msgid "Import in Bulk"
@@ -22507,7 +22507,7 @@ msgstr "Nhập hàng loạt"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:192
 msgid "Imported {0} DocTypes"
-msgstr "Đã nhập {0} Loại tài liệu"
+msgstr "Đã nhập Loại {0} tài liệu"
 
 #: erpnext/edi/doctype/common_code/common_code.py:109
 msgid "Importing Common Codes"
@@ -26137,7 +26137,7 @@ msgstr "Mặt hàng {0}: Số lượng đặt hàng {1} không được thấp h
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:573
 msgid "Item {0}: {1} qty produced. "
-msgstr "Mặt hàng {0}: Đã sản xuất {1} đơn vị."
+msgstr "Mặt hàng {0}: Đã sản xuất Đơn {1} vị."
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:1461
 msgid "Item {} does not exist."
@@ -30915,7 +30915,7 @@ msgstr "Lưu ý: Việc tự động xóa nhật ký chỉ áp dụng cho nhật
 
 #: erpnext/accounts/party.py:695
 msgid "Note: Due Date exceeds allowed {0} credit days by {1} day(s)"
-msgstr "Lưu ý: Hạn thanh toán vượt quá {0} ngày hạn mức tín dụng là {1} ngày"
+msgstr "Lưu ý: Hạn thanh toán vượt quá Ngày {0} hạn mức tín dụng là Ngày {1}"
 
 #. Description of the 'Recipients' (Table MultiSelect) field in DocType 'Email
 #. Digest'
@@ -41040,7 +41040,7 @@ msgstr "Ngày tham chiếu"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1035
 msgid "Reference #{0} dated {1}"
-msgstr "Tham chiếu #{0} ngày {1}"
+msgstr "Tham chiếu #Ngày {0} {1}"
 
 #: erpnext/public/js/controllers/transaction.js:2868
 msgid "Reference Date for Early Payment Discount"
@@ -43894,7 +43894,7 @@ msgstr "Dòng {0} : Bắt buộc phải có Công đoạn đối với mặt hà
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:266
 msgid "Row {0} picked quantity is less than the required quantity, additional {1} {2} required."
-msgstr "Dòng {0} số lượng lấy hàng ít hơn số lượng yêu cầu, cần thêm {1} {2}"
+msgstr "Dòng Số {0} lượng lấy hàng ít hơn số lượng yêu cầu, cần thêm {1} {2}"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1662
 msgid "Row {0}# Item {1} not found in 'Raw Materials Supplied' table in {2} {3}"
@@ -48036,7 +48036,7 @@ msgstr "Vì có các tài sản khấu hao đang hoạt động trong danh mục
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:753
 msgid "Since there is a process loss of {0} units for the finished good {1}, you should reduce the quantity by {0} units for the finished good {1} in the Items Table."
-msgstr "Vì có hao hụt quy trình là {0} đơn vị cho thành phẩm {1}, bạn nên giảm số lượng đi {0} đơn vị cho thành phẩm {1} trong Bảng Mặt hàng."
+msgstr "Vì có hao hụt quy trình là Đơn {0} vị cho thành phẩm {1}, bạn nên giảm số lượng đi Đơn {0} vị cho thành phẩm {1} trong Bảng Mặt hàng."
 
 #: erpnext/manufacturing/doctype/bom/bom.py:323
 msgid "Since you have enabled 'Track Semi Finished Goods', at least one operation must have 'Is Final Finished Good' checked. For that set the FG / Semi FG Item as {0} against an operation."
@@ -48090,7 +48090,7 @@ msgstr "Bỏ qua Chuyển nguyên vật liệu vào Kho WIP"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.py:565
 msgid "Skipped {0} DocType(s):<br>{1}"
-msgstr "Đã bỏ qua {0} Loại chứng từ:<br>{1}"
+msgstr "Đã bỏ qua Loại {0} chứng từ:<br>{1}"
 
 #. Label of the customer_skype (Data) field in DocType 'Appointment'
 #: erpnext/crm/doctype/appointment/appointment.json
@@ -50072,7 +50072,7 @@ msgstr "Đã thay đổi Đơn vị tính kho thành công, vui lòng xác đị
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:173
 msgid "Successfully imported {0} record out of {1}. Click on Export Errored Rows, fix the errors and import again."
-msgstr "Đã nhập thành công {0} bản ghi trên tổng số {1}. Vui lòng nhấn vào Xuất các dòng lỗi, sửa lỗi và nhập lại."
+msgstr "Đã nhập thành công Bản ghi {0} trên tổng số {1}. Vui lòng nhấn vào Xuất các dòng lỗi, sửa lỗi và nhập lại."
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:157
 msgid "Successfully imported {0} record."
@@ -50080,11 +50080,11 @@ msgstr "Đã nhập thành công bản ghi {0}."
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:169
 msgid "Successfully imported {0} records out of {1}. Click on Export Errored Rows, fix the errors and import again."
-msgstr "Đã nhập thành công {0} bản ghi trên tổng số {1}. Vui lòng nhấn vào Xuất các dòng lỗi, sửa lỗi và nhập lại."
+msgstr "Đã nhập thành công Bản ghi {0} trên tổng số {1}. Vui lòng nhấn vào Xuất các dòng lỗi, sửa lỗi và nhập lại."
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:156
 msgid "Successfully imported {0} records."
-msgstr "Đã nhập thành công {0} bản ghi."
+msgstr "Đã nhập thành công Bản ghi {0}."
 
 #: erpnext/buying/doctype/supplier/supplier.js:202
 msgid "Successfully linked to Customer"
@@ -50100,19 +50100,19 @@ msgstr "Đã hợp nhất thành công {0} trên tổng số {1}."
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:184
 msgid "Successfully updated {0} record out of {1}. Click on Export Errored Rows, fix the errors and import again."
-msgstr "Đã cập nhật thành công {0} bản ghi trên tổng số {1}. Vui lòng nhấn vào Xuất các dòng lỗi, sửa lỗi và nhập lại."
+msgstr "Đã cập nhật thành công Bản ghi {0} trên tổng số {1}. Vui lòng nhấn vào Xuất các dòng lỗi, sửa lỗi và nhập lại."
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:162
 msgid "Successfully updated {0} record."
-msgstr "Đã cập nhật thành công {0} bản ghi."
+msgstr "Đã cập nhật thành công Bản ghi {0}."
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:180
 msgid "Successfully updated {0} records out of {1}. Click on Export Errored Rows, fix the errors and import again."
-msgstr "Đã cập nhật thành công {0} trên tổng số {1} bản ghi. Nhấp vào Xuất các dòng lỗi, sửa lỗi và nhập lại."
+msgstr "Đã cập nhật thành công {0} trên tổng số Bản ghi {1}. Nhấp vào Xuất các dòng lỗi, sửa lỗi và nhập lại."
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:161
 msgid "Successfully updated {0} records."
-msgstr "Đã cập nhật thành công {0} bản ghi."
+msgstr "Đã cập nhật thành công Bản ghi {0}."
 
 #. Option for the 'Request Type' (Select) field in DocType 'Lead'
 #: erpnext/crm/doctype/lead/lead.json
@@ -52359,7 +52359,7 @@ msgstr "Kho hàng cho mặt hàng {0} tại kho {1} bị âm vào ngày {2}. B�
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:736
 msgid "The stock has been reserved for the following Items and Warehouses, un-reserve the same to {0} the Stock Reconciliation: <br /><br /> {1}"
-msgstr "Kho hàng đã được dự trữ cho các Mặt hàng và Kho sau đây, hãy hủy dự trữ tương ứng để {0} Bảng đối soát kho: <br /><br /> {1}"
+msgstr "Kho hàng đã được dự trữ cho các Mặt hàng và Kho sau đây, hãy hủy dự trữ tương ứng để Bảng {0} đối soát kho: <br /><br /> {1}"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:37
 msgid "The sync has started in the background, please check the {0} list for new records."
@@ -53042,7 +53042,7 @@ msgstr "Đến Ngày/Giờ"
 
 #: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.js:118
 msgid "To Delete list generated with {0} DocTypes"
-msgstr "Để xóa danh sách được tạo với {0} Loại chứng từ"
+msgstr "Để xóa danh sách được tạo với Loại {0} chứng từ"
 
 #. Option for the 'Sales Order Status' (Select) field in DocType 'Production
 #. Plan'
@@ -54421,7 +54421,7 @@ msgstr "Giao dịch không được phép đối với Lệnh sản xuất {0} �
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1252
 msgid "Transaction reference no {0} dated {1}"
-msgstr "Số tham chiếu giao dịch {0} ngày {1}"
+msgstr "Số tham chiếu giao dịch Ngày {0} {1}"
 
 #. Group in Bank Account's connections
 #: erpnext/accounts/doctype/bank_account/bank_account.json
@@ -55005,7 +55005,7 @@ msgstr "Không thể tìm thấy điểm số bắt đầu tại {0}. Bạn cầ
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:1047
 msgid "Unable to find the time slot in the next {0} days for the operation {1}. Please increase the 'Capacity Planning For (Days)' in the {2}."
-msgstr "Không thể tìm thấy khung thời gian trong {0} ngày tới cho hoạt động {1}. Vui lòng tăng 'Lập kế hoạch năng lực (Ngày)' trong {2}."
+msgstr "Không thể tìm thấy khung thời gian trong Ngày {0} tới cho hoạt động {1}. Vui lòng tăng 'Lập kế hoạch năng lực (Ngày)' trong {2}."
 
 #: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.py:98
 msgid "Unable to find variable:"
@@ -58533,15 +58533,15 @@ msgstr "Ngân sách cho Tài khoản {1} đối với {2} {3} là {4}. Sẽ vư�
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:771
 msgid "{0} Coupon used are {1}. Allowed quantity is exhausted"
-msgstr "{0} Mã giảm giá đã sử dụng là {1}. Số lượng cho phép đã hết"
+msgstr "Mã {0} giảm giá đã sử dụng là {1}. Số lượng cho phép đã hết"
 
 #: erpnext/setup/doctype/email_digest/email_digest.py:124
 msgid "{0} Digest"
-msgstr "{0} Tóm tắt"
+msgstr "Tóm tắt {0}"
 
 #: erpnext/accounts/utils.py:1581
 msgid "{0} Number {1} is already used in {2} {3}"
-msgstr "{0} Số {1} đã được sử dụng trong {2} {3}"
+msgstr "Số {0} {1} đã được sử dụng trong {2} {3}"
 
 #: erpnext/manufacturing/doctype/bom/bom.py:1693
 msgid "{0} Operating Cost for operation {1}"
@@ -58557,7 +58557,7 @@ msgstr "{0} Yêu cầu cho {1}"
 
 #: erpnext/stock/doctype/item/item.py:359
 msgid "{0} Retain Sample is based on batch, please check Has Batch No to retain sample of item"
-msgstr "{0} Mẫu lưu dựa trên lô, vui lòng kiểm tra 'Có số lô' để lưu mẫu của mặt hàng"
+msgstr "Mẫu {0} lưu dựa trên lô, vui lòng kiểm tra 'Có số lô' để lưu mẫu của mặt hàng"
 
 #: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:466
 msgid "{0} Transaction(s) Reconciled"
@@ -58585,7 +58585,7 @@ msgstr "{0} không tìm thấy tài khoản khi đang xác nhận phiếu nhập
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1066
 msgid "{0} against Bill {1} dated {2}"
-msgstr "{0} đối với Hóa đơn {1} ngày {2}"
+msgstr "{0} đối với Hóa đơn Ngày {1} {2}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:1075
 msgid "{0} against Purchase Order {1}"
@@ -58834,36 +58834,36 @@ msgstr "{0} bút toán thanh toán không thể lọc theo {1}"
 
 #: erpnext/controllers/stock_controller.py:1734
 msgid "{0} qty of Item {1} is being received into Warehouse {2} with capacity {3}."
-msgstr "{0} số lượng của Mặt hàng {1} đang được nhập vào Kho {2} với sức chứa {3}."
+msgstr "Số {0} lượng của Mặt hàng {1} đang được nhập vào Kho {2} với sức chứa {3}."
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:726
 msgid "{0} units are reserved for Item {1} in Warehouse {2}, please un-reserve the same to {3} the Stock Reconciliation."
-msgstr "{0} đơn vị đã được giữ cho Mặt hàng {1} trong Kho {2}, vui lòng hủy giữ để {3} Đối soát kho."
+msgstr "Đơn {0} vị đã được giữ cho Mặt hàng {1} trong Kho {2}, vui lòng hủy giữ để {3} Đối soát kho."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1087
 msgid "{0} units of Item {1} is not available in any of the warehouses."
-msgstr "{0} đơn vị của Mặt hàng {1} không có sẵn trong bất kỳ kho nào."
+msgstr "Đơn {0} vị của Mặt hàng {1} không có sẵn trong bất kỳ kho nào."
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:1080
 msgid "{0} units of Item {1} is not available in any of the warehouses. Other Pick Lists exist for this item."
-msgstr "{0} đơn vị của Mặt hàng {1} không có sẵn trong bất kỳ kho nào. Có các Danh sách lấy hàng khác cho mặt hàng này."
+msgstr "Đơn {0} vị của Mặt hàng {1} không có sẵn trong bất kỳ kho nào. Có các Danh sách lấy hàng khác cho mặt hàng này."
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:144
 msgid "{0} units of {1} are required in {2} with the inventory dimension: {3} on {4} {5} for {6} to complete the transaction."
-msgstr "{0} đơn vị của {1} cần có tại {2} với chiều dữ liệu tồn kho: {3} vào {4} {5} để {6} hoàn tất giao dịch."
+msgstr "Đơn {0} vị của {1} cần có tại {2} với chiều dữ liệu tồn kho: {3} vào {4} {5} để {6} hoàn tất giao dịch."
 
 #: erpnext/stock/stock_ledger.py:1707 erpnext/stock/stock_ledger.py:2203
 #: erpnext/stock/stock_ledger.py:2217
 msgid "{0} units of {1} needed in {2} on {3} {4} for {5} to complete this transaction."
-msgstr "{0} đơn vị của {1} cần có tại {2} vào {3} {4} để {5} hoàn tất giao dịch này."
+msgstr "Đơn {0} vị của {1} cần có tại {2} vào {3} {4} để {5} hoàn tất giao dịch này."
 
 #: erpnext/stock/stock_ledger.py:2304 erpnext/stock/stock_ledger.py:2349
 msgid "{0} units of {1} needed in {2} on {3} {4} to complete this transaction."
-msgstr "{0} đơn vị của {1} cần có tại {2} vào {3} {4} để hoàn tất giao dịch này."
+msgstr "Đơn {0} vị của {1} cần có tại {2} vào {3} {4} để hoàn tất giao dịch này."
 
 #: erpnext/stock/stock_ledger.py:1701
 msgid "{0} units of {1} needed in {2} to complete this transaction."
-msgstr "{0} đơn vị của {1} cần có tại {2} để hoàn tất giao dịch này."
+msgstr "Đơn {0} vị của {1} cần có tại {2} để hoàn tất giao dịch này."
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:36
 msgid "{0} until {1}"
@@ -58871,7 +58871,7 @@ msgstr "{0} cho đến {1}"
 
 #: erpnext/stock/utils.py:403
 msgid "{0} valid serial nos for Item {1}"
-msgstr "{0} số sê-ri hợp lệ cho Mặt hàng {1}"
+msgstr "Số {0} sê-ri hợp lệ cho Mặt hàng {1}"
 
 #: erpnext/stock/doctype/item/item.js:775
 msgid "{0} variants created."
@@ -59009,7 +59009,7 @@ msgstr "{0} {1} không được phép hạch toán lại. Hãy sửa đổi {2} 
 
 #: erpnext/buying/utils.py:116
 msgid "{0} {1} status is {2}"
-msgstr "{0} {1} trạng thái là {2}"
+msgstr "{0} Trạng thái {1} là {2}"
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:231
 msgid "{0} {1} via CSV File"
