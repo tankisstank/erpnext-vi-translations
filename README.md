@@ -37,7 +37,37 @@ The official `vi.po` files in Frappe's `version-16` branch are **nearly empty** 
    - Quantity = Số lượng
    - Rate = Đơn giá
    - Total = Tổng
-4. Placeholders (`{0}`, `{name}`, `%(x)s`, HTML tags) preserved
+4. Placeholders (`{0}`, `{name}`, `%(x)s`, HTML tags) preserved where present
+
+## Curated accounting terminology and template repairs — 2026-09-06
+
+Commit [`fc82cda`](https://github.com/tankisstank/erpnext-vi-translations/commit/fc82cdaf9d81cb1812d32a4fabeb3ca173e361c1)
+adds a focused editorial pass to the Frappe and ERPNext catalogs. Accounting
+terminology was cross-checked against
+[`mrhuychien/erpnextvn`](https://github.com/mrhuychien/erpnextvn), then chosen
+for clarity in standard ERPNext workflows rather than copied wholesale.
+
+- `Submit` / `Submitted` → `Xác nhận` / `Đã xác nhận`
+- `Posting Date` → `Ngày hạch toán`; `Trial Balance` → `Bảng cân đối phát sinh`
+- `VAT` → `Thuế GTGT`; `Net Total` → `Tổng trước thuế`
+- `Expense Claim` → `Đề nghị thanh toán`; `Purchase Receipt` → `Phiếu nhập kho`
+- `Payment Entry` → `Chứng từ thanh toán`, to cover both receipts/payments and
+  ERPNext transfers; `Stock Entry` remains `Phiếu xuất nhập kho`.
+
+Nine malformed translations were also repaired. These include a Notification
+HTML/Jinja example and ERPNext messages with positional placeholders. The
+repairs preserve Jinja directives and required placeholders rather than
+translating template syntax.
+
+Validation on the resulting catalogs covered 17,631 entries across Frappe,
+ERPNext, and HRMS, with **0 placeholder/Jinja mismatches**. `VAT` is included
+as an explicit ERPNext glossary entry because the base catalog did not contain
+it as a standalone `msgid`.
+
+Tóm tắt tiếng Việt: bản hiệu đính chuẩn hóa thuật ngữ kế toán, sửa chín chuỗi
+lỗi placeholder/Jinja và đã kiểm tra toàn bộ 17.631 entry không còn mismatch.
+Các thay đổi chỉ thuộc locale giao diện, không phải bộ quy tắc tuân thủ kế toán
+hoặc thuế Việt Nam.
 
 ## Quality note
 
@@ -57,6 +87,7 @@ cd erpnext-vi-translations
 # 2. Copy the .po files into your ERPNext container
 docker cp frappe/locale/vi.po  erpnext-backend:/home/frappe/frappe-bench/apps/frappe/frappe/locale/vi.po
 docker cp erpnext/locale/vi.po erpnext-backend:/home/frappe/frappe-bench/apps/erpnext/erpnext/locale/vi.po
+# Run this only when HRMS is installed:
 docker cp hrms/locale/vi.po    erpnext-backend:/home/frappe/frappe-bench/apps/hrms/hrms/locale/vi.po
 
 # 3. Compile .po → .mo
