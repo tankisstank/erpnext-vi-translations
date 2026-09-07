@@ -321,7 +321,7 @@ msgstr "<h5 class=\"text-muted uppercase\">Hoặc</h5>"
 #: frappe/email/doctype/notification/notification.json
 #, python-format
 msgid "<h5>Message Example</h5>\n\n<pre>&lt;h3&gt;Order Overdue&lt;/h3&gt;\n\n&lt;p&gt;Transaction {{ doc.name }} has exceeded Due Date. Please take necessary action.&lt;/p&gt;\n\n&lt;!-- show last comment --&gt;\n{% if comments %}\nLast comment: {{ comments[-1].comment }} by {{ comments[-1].by }}\n{% endif %}\n\n&lt;h4&gt;Details&lt;/h4&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Customer: {{ doc.customer }}\n&lt;li&gt;Amount: {{ doc.grand_total }}\n&lt;/ul&gt;\n</pre>"
-msgstr "<h5>Ví dụ về tin nhắn</h5>\n\n<pre>_&lt;h3&gt;Đơn hàng quá hạn&lt;/h3&gt;\n\n&lt;p&gt;Giao dịch {{ doc.name }} đã vượt quá hạn hoàn thành. Vui lòng thực hiện hành động cần thiết.&lt;/p&gt;\n\n&lt;!-- hiển thị bình luận cuối cùng --&gt;\n{% nếu nhận xét %}\nBình luận cuối cùng: {{ comments[-1].comment }} bởi {{ comments[-1].by }}\n{% endif %}\n\n&lt;h4&gt;Chi tiết&lt;/h4&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Khách hàng: {{ doc.customer }}\n&lt;li&gt;Số tiền: {{ doc.grand_total }}\n&lt;/ul&gt;\n</pre>"
+msgstr "<h5>Ví dụ nội dung tin nhắn</h5>\n\n<pre>&lt;h3&gt;Đơn hàng quá hạn&lt;/h3&gt;\n\n&lt;p&gt;Giao dịch {{ doc.name }} đã quá hạn. Vui lòng thực hiện xử lý cần thiết.&lt;/p&gt;\n\n&lt;!-- hiển thị bình luận gần nhất --&gt;\n{% if comments %}\nBình luận gần nhất: {{ comments[-1].comment }} bởi {{ comments[-1].by }}\n{% endif %}\n\n&lt;h4&gt;Chi tiết&lt;/h4&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Khách hàng: {{ doc.customer }}\n&lt;li&gt;Số tiền: {{ doc.grand_total }}\n&lt;/ul&gt;\n</pre>"
 
 #. Content of the 'html_7' (HTML) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -670,7 +670,7 @@ msgstr "Không cho phép truy cập từ địa chỉ IP này"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Account"
-msgstr "Tài Khoản"
+msgstr "Tài khoản"
 
 #. Label of the account_deletion_settings_section (Section Break) field in
 #. DocType 'Website Settings'
@@ -3870,7 +3870,7 @@ msgstr "Hủy"
 #: frappe/public/js/frappe/ui/messages.js:68
 msgctxt "Secondary button in warning dialog"
 msgid "Cancel"
-msgstr "Hủy bỏ"
+msgstr "Hủy"
 
 #: frappe/public/js/frappe/form/form.js:1020
 msgid "Cancel All"
@@ -8194,7 +8194,7 @@ msgstr "Tiến sĩ"
 #: frappe/public/js/frappe/model/indicator.js:73
 #: frappe/public/js/frappe/ui/filters/filter.js:547
 msgid "Draft"
-msgstr "Bản nháp"
+msgstr "Nháp"
 
 #: frappe/public/js/frappe/views/workspace/blocks/header.js:46
 #: frappe/public/js/frappe/views/workspace/blocks/paragraph.js:136
@@ -26041,32 +26041,32 @@ msgstr "Hàng đợi gửi"
 #: frappe/public/js/frappe/ui/capture.js:308
 #: frappe/website/web_form/request_to_delete_data/request_to_delete_data.json
 msgid "Submit"
-msgstr "Gửi"
+msgstr "Xác nhận"
 
 #: frappe/public/js/frappe/list/list_view.js:2348
 msgctxt "Button in list view actions menu"
 msgid "Submit"
-msgstr "Gửi"
+msgstr "Xác nhận"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:56
 msgctxt "Button in web form"
 msgid "Submit"
-msgstr "Gửi"
+msgstr "Xác nhận"
 
 #: frappe/public/js/frappe/ui/dialog.js:64
 msgctxt "Primary action in dialog"
 msgid "Submit"
-msgstr "Gửi"
+msgstr "Xác nhận"
 
 #: frappe/public/js/frappe/ui/messages.js:97
 msgctxt "Primary action of prompt dialog"
 msgid "Submit"
-msgstr "Gửi"
+msgstr "Xác nhận"
 
 #: frappe/public/js/frappe/desk.js:229
 msgctxt "Submit password for Email Account"
 msgid "Submit"
-msgstr "Gửi"
+msgstr "Xác nhận"
 
 #. Label of the submit_after_import (Check) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -26112,7 +26112,7 @@ msgstr "Gửi tài liệu {0}?"
 #: frappe/public/js/frappe/ui/filters/filter.js:548
 #: frappe/website/doctype/web_form/templates/web_form.html:152
 msgid "Submitted"
-msgstr "Đã gửi"
+msgstr "Đã xác nhận"
 
 #: frappe/workflow/doctype/workflow/workflow.py:119
 msgid "Submitted Document cannot be converted back to draft. Transition row {0}"
@@ -29917,7 +29917,7 @@ msgstr "Bạn muốn thảo luận?"
 #. Option for the 'Address Type' (Select) field in DocType 'Address'
 #: frappe/contacts/doctype/address/address.json
 msgid "Warehouse"
-msgstr "Kho hàng"
+msgstr "Kho"
 
 #. Option for the 'Button Color' (Select) field in DocType 'DocField'
 #. Option for the 'Button Color' (Select) field in DocType 'Custom Field'

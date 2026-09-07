@@ -1730,7 +1730,7 @@ msgstr "Bút toán kế toán cho {0}"
 
 #: erpnext/controllers/accounts_controller.py:2432
 msgid "Accounting Entry for {0}: {1} can only be made in currency: {2}"
-msgstr "{0}: chỉ có thể thực hiện bằng loại tiền: {2}"
+msgstr "Bút toán kế toán cho {0}: {1} chỉ có thể được lập bằng loại tiền tệ: {2}"
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:193
 #: erpnext/assets/doctype/asset/asset.js:185
@@ -4521,7 +4521,7 @@ msgstr "Số tiền theo đơn vị tiền tệ giao dịch"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:74
 msgid "Amount in {0}"
-msgstr "Số tiền {0} {1}"
+msgstr "Số tiền theo {0}"
 
 #: erpnext/buying/report/purchase_order_analysis/purchase_order_analysis.py:189
 #: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:209
@@ -9609,7 +9609,7 @@ msgstr "Cây biểu đồ"
 #: erpnext/workspace_sidebar/accounts_setup.json
 #: erpnext/workspace_sidebar/invoicing.json
 msgid "Chart of Accounts"
-msgstr "Hệ thống Tài khoản"
+msgstr "Hệ thống tài khoản"
 
 #. Name of a DocType
 #. Label of a Link in the Invoicing Workspace
@@ -18621,7 +18621,7 @@ msgstr "Thiếu tài khoản chi phí"
 #. Account'
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 msgid "Expense Claim"
-msgstr ""
+msgstr "Đề nghị thanh toán"
 
 #. Label of the expense_account (Link) field in DocType 'Purchase Invoice Item'
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
@@ -19770,7 +19770,7 @@ msgstr "Ví dụ: 2012, 2012-13"
 #. 'Loyalty Program Collection'
 #: erpnext/accounts/doctype/loyalty_program_collection/loyalty_program_collection.json
 msgid "For how much spent = 1 Loyalty Point"
-msgstr "Với mỗi {1} chi tiêu = 1 Điểm thành viên"
+msgstr "Mức chi tiêu để nhận 1 Điểm khách hàng thân thiết"
 
 #. Description of the 'Supplier' (Link) field in DocType 'Request for
 #. Quotation'
@@ -19964,7 +19964,7 @@ msgstr "Mặt hàng miễn phí không được thiết lập trong quy tắc gi
 #. Label of the stock_frozen_upto_days (Int) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Freeze Stocks Older Than (Days)"
-msgstr "Đóng băng kho cũ hơn ({0} ngày)"
+msgstr "Đóng băng tồn kho cũ hơn (ngày)"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:107
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:185
@@ -20567,12 +20567,12 @@ msgstr "Gauss"
 #: erpnext/workspace_sidebar/invoicing.json
 #: erpnext/workspace_sidebar/payments.json
 msgid "General Ledger"
-msgstr "Sổ cái tổng hợp"
+msgstr "Sổ cái"
 
 #: erpnext/stock/doctype/warehouse/warehouse.js:82
 msgctxt "Warehouse"
 msgid "General Ledger"
-msgstr "Sổ cái tổng hợp"
+msgstr "Sổ cái"
 
 #. Label of the gs (Section Break) field in DocType 'Item Group'
 #: erpnext/setup/doctype/item_group/item_group.json
@@ -24863,7 +24863,7 @@ msgstr "Chữ in nghiêng cho các dòng tổng phụ hoặc ghi chú"
 #: erpnext/workspace_sidebar/subcontracting.json
 #: erpnext/workspace_sidebar/subscription.json
 msgid "Item"
-msgstr "Mặt hàng"
+msgstr "Hàng hóa"
 
 #: erpnext/stock/report/bom_search/bom_search.js:8
 msgid "Item 1"
@@ -30106,7 +30106,7 @@ msgstr "Đơn giá thuần (Tiền tệ công ty)"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #: erpnext/templates/includes/order/order_taxes.html:5
 msgid "Net Total"
-msgstr "Tổng thuần"
+msgstr "Tổng trước thuế"
 
 #. Label of the base_net_total (Currency) field in DocType 'POS Invoice'
 #. Label of the base_net_total (Currency) field in DocType 'Purchase Invoice'
@@ -32412,7 +32412,7 @@ msgstr "Dư nợ (Tiền tệ Công ty)"
 #: erpnext/accounts/report/purchase_register/purchase_register.py:289
 #: erpnext/accounts/report/sales_register/sales_register.py:319
 msgid "Outstanding Amount"
-msgstr "Số tiền Dư nợ"
+msgstr "Số tiền còn nợ"
 
 #: erpnext/selling/report/customer_credit_balance/customer_credit_balance.py:66
 msgid "Outstanding Amt"
@@ -32860,7 +32860,7 @@ msgstr "Hồ sơ POS - {0} có nhiều bút toán mở POS đang mở. Vui lòng
 
 #: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.py:249
 msgid "POS Profile - {0} is currently open. Please close the POS or cancel the existing POS Opening Entry before cancelling this POS Closing Entry."
-msgstr "Hồ sơ POS đang mở. Vui lòng đóng POS hoặc hủy bút toán mở POS hiện có trước khi hủy Bút toán đóng POS này."
+msgstr "Hồ sơ POS - {0} hiện đang mở. Vui lòng đóng POS hoặc hủy Bút toán mở POS hiện có trước khi hủy Bút toán đóng POS này."
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/pos_profile_user/pos_profile_user.json
@@ -33987,7 +33987,7 @@ msgstr "{0} bút toán thanh toán chưa được liên kết"
 #: erpnext/workspace_sidebar/invoicing.json
 #: erpnext/workspace_sidebar/payments.json
 msgid "Payment Entry"
-msgstr "Bút toán thanh toán"
+msgstr "Chứng từ thanh toán"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/payment_entry_deduction/payment_entry_deduction.json
@@ -36610,7 +36610,7 @@ msgstr "Chi phí bưu chính"
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:36
 #: erpnext/templates/form_grid/bank_reconciliation_grid.html:6
 msgid "Posting Date"
-msgstr "Ngày đăng"
+msgstr "Ngày hạch toán"
 
 #. Label of the exchange_gain_loss_posting_date (Select) field in DocType
 #. 'Accounts Settings'
@@ -38758,7 +38758,7 @@ msgstr "Bảng giá mua"
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:68
 #: erpnext/workspace_sidebar/stock.json
 msgid "Purchase Receipt"
-msgstr "Phiếu nhập hàng"
+msgstr "Phiếu nhập kho"
 
 #. Description of the 'Auto Create Purchase Receipt' (Check) field in DocType
 #. 'Buying Settings'
@@ -44237,7 +44237,7 @@ msgstr "Dòng {0}: {1} {2} được liên kết với công ty {3}. Vui lòng ch
 
 #: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:110
 msgid "Row {0}: {2} Item {1} does not exist in {2} {3}"
-msgstr "Dòng {0}: Sản phẩm {1} trong {2} {3} không tồn tại"
+msgstr "Dòng {0}: {2} mặt hàng {1} không tồn tại trong {2} {3}"
 
 #: erpnext/utilities/transaction_base.py:563
 msgid "Row {1}: Quantity ({0}) cannot be a fraction. To allow this, disable '{2}' in UOM {3}."
@@ -54020,7 +54020,7 @@ msgstr "Tổng số tiền chịu thuế"
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Total Taxes and Charges"
-msgstr "Tổng số thuế và phí"
+msgstr "Tổng thuế và phí"
 
 #. Label of the base_total_taxes_and_charges (Currency) field in DocType
 #. 'Payment Entry'
@@ -54624,7 +54624,7 @@ msgstr "Cây thủ tục"
 #: erpnext/workspace_sidebar/invoicing.json
 #: erpnext/workspace_sidebar/payments.json
 msgid "Trial Balance"
-msgstr "Bảng cân đối thử"
+msgstr "Bảng cân đối phát sinh"
 
 #. Name of a report
 #: erpnext/accounts/report/trial_balance_simple/trial_balance_simple.json
@@ -58525,11 +58525,11 @@ msgstr "{0} Tài khoản: {1} ({2}) phải là loại tiền tệ thanh toán c�
 
 #: erpnext/accounts/doctype/budget/budget.py:545
 msgid "{0} Budget for Account {1} against {2} {3} is {4}. It is already exceeded by {5}."
-msgstr "Ngân sách cho Tài khoản {1} đối với {2} {3} là {4}. Đã vượt quá {5}."
+msgstr "Ngân sách {0} cho Tài khoản {1} theo {2} {3} là {4}. Đã vượt quá {5}."
 
 #: erpnext/accounts/doctype/budget/budget.py:548
 msgid "{0} Budget for Account {1} against {2} {3} is {4}. It will be exceeded by {5}."
-msgstr "Ngân sách cho Tài khoản {1} đối với {2} {3} là {4}. Sẽ vượt quá {5}."
+msgstr "Ngân sách {0} cho Tài khoản {1} theo {2} {3} là {4}. Sẽ vượt quá {5}."
 
 #: erpnext/accounts/doctype/pricing_rule/utils.py:771
 msgid "{0} Coupon used are {1}. Allowed quantity is exhausted"
@@ -59176,3 +59176,8 @@ msgstr "{} {} đã được liên kết với {} {}"
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:391
 msgid "{} {} is not affecting bank account {}"
 msgstr "{} {} không ảnh hưởng đến tài khoản ngân hàng {}"
+
+
+#. Curated Vietnamese accounting glossary
+msgid "VAT"
+msgstr "Thuế GTGT"
